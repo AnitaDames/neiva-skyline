@@ -5,3 +5,8 @@ h1{
 li {
  list-style: none;
 }
+
+img {
+  height: 200px;
+  width: 200px;
+}
