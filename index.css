@@ -1,7 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
 h1{
     color: brown;
 }
 
 li {
  list-style: none;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  padding-top: 10px;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.4rem;
+}
+
+#grid > div {
+  background-color: #003893;
+  color: #fcd116;
+  padding: 10px;
+}
+
+figure {
+  width: 400px;
 }
