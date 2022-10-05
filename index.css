@@ -1,3 +1,10 @@
+.page-header{
+background-image: url("./images/redsky.JPG");
+text-align: center;
+height: 300px;
+grid: 10%;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
