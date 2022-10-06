@@ -1,3 +1,50 @@
+ #head {
+  display: inline;
+ }
+
+.logo-title {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: lighter;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: red;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  margin:0%
+  
+}
+
+ul{
+  text-align: center;
+
+}
+
+li{
+  font-family: fantasy;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  
+}
+
+
+
 .page-header{
 background-image: url("./images/redsky.JPG");
 text-align: center;
